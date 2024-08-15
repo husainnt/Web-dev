@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SELECTORS</title>
+    <style>
+        /* Element selectors */
+        div{
+            background-color: aqua;
+        }
+        /* Class selectors */
+        .red
+        {
+            background-color: blueviolet;
+        }
+        /* Id selectors */
+        #yellow
+        {
+            background-color: yellow;
+        }
+        /* Child selectors */
+        div>p
+        {
+            color:slateblue
+            
+        }
+        /* Descendant selector */
+        div p
+        {
+            background-color: hotpink;
+        }
+        /* Universal selector */
+        *
+        {
+         
+            font-size: large;
+            margin: 0%;
+            padding: 0%;
+        }
+        /* Pseudo Selector */
+        a:visited
+        {
+            color: darkorange;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="red">div no. 1</div>
+    <div>this is the second div</div>
+    <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum enim labore ipsa nobis, nulla, deserunt quisquam earum corporis, quibusdam ex possimus expedita dolorum.</p></div>
+    <div>
+        <article>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam consequuntur quae perspiciatis aliquid.            </p>
+        </article>
+    </div>   
+    <div>
+        <a href="https://www.google.com">Go to google</a>
+    </div>
+    <span id="yellow">this is a span</span>
+</body>
+</html>

@@ -1,0 +1,35 @@
+h1
+{
+    border-style: double;
+    border-color: aqua;
+    background-color: blueviolet;
+    border-radius: 10px;
+    width: 350px;
+    
+}
+.single
+{
+    border-style: dashed;
+    border-color: seagreen;
+    background-color: burlywood;
+    width:350px;
+    padding: 5px;
+    box-shadow: 0 0 10px #777777;
+
+}
+.one
+{
+    border-style:solid;
+    border-color: chocolate;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    height: 200px;
+    width: auto;
+    overflow: scroll;
+    moz
+}
+li{
+    display:inline;
+    margin-right: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
