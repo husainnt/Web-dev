@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- Typography -->
+    <div class="container">
+      <h1>Hello, world!</h1>
+
+      <p class="lead">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam sapiente qui quas velit assumenda expedita ad voluptates, facere ab, vero quod asperiores!
+      </p>
+      
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias magni, illum error quam dicta impedit quos! <mark>Officiis voluptatem distinctio consequatur</mark>, est voluptates, veniam voluptatum accusantium aut alias sint ipsam laborum necessitatibus rerum placeat quis nostrum rem error mollitia nihil. Molestias rem, ab harum enim saepe corporis mollitia laboriosam aliquam perferendis eveniet doloremque.
+      </p>
+
+      <!-- Alignment -->
+      <p class="text-start">Left Aligned Text</p>
+      <p class="text-center">Center Aligned Text</p>
+      <p class="text-end">Right Aligned Text</p>
+      <p class="text-justify">Justified Text</p>
+      <p class="text-nowrap">No Wrap Text</p>
+      <!-- Quick Floats -->
+      <div class="float-start">Div Floated To Left</div>
+      <div class="float-end">Div Floated To Right</div>
+      <!-- Clear Floats-->
+      <div class="clearfix"></div>
+      <hr>
+      <!--BlockQuote-->
+    <blockquote class="blockquote text-end">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad iure odit facere iste neque voluptas cumque natus consectetur eum</p>
+        <footer>Quote by <cite title="Hussain">Hussain</cite></footer>
+    </blockquote>
+    <!--Lists-->
+    <ul class="list-unstyled"><!-- unstyled-->
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+        <li>Item Four</li>
+    </ul>
+    <!-- inline list(nav type/menu)-->
+    <!-- &bull; for bullets -->
+    <ul class="list-inline" >
+      <li class="list-inline-item">&bull;Item One</li>
+      <li class="list-inline-item">&bull;Item Two</li>
+      <li class="list-inline-item">&bull;Item Three</li>
+      <li class="list-inline-item">&bull;Item Four</li>
+    </ul>
+    <!--- Contextual Colors-->
+    <p class="text-primary">Hello World</p><!-- blue-->
+    <p class=" text-success">Hello World</p><!-- green-->
+    <p class=" text-info">Hello World</p><!-- light blue-->
+    <p class=" text-warning">Hello World</p><!--  yellow -->
+    <p class=" text-danger">Hello World</p><!-- red-->
+    <p class=" text-muted">Hello World</p><!-- light grey-->
+    <!--- Contextual Background Colors-->
+    <p class="bg-primary">Hello World</p><!-- blue-->
+    <p class=" bg-success">Hello World</p><!-- green-->
+    <p class=" bg-info">Hello World</p><!-- light blue-->
+    <p class=" bg-warning">Hello World</p><!--  yellow -->
+    <p class=" bg-danger">Hello World</p><!-- red-->
+    <p class=" bg-muted">Hello World</p><!-- light grey-->
+  </div>  
+<hr>
+<div class="container">
+  <!-- BUTTONS -->
+  <button class="btn btn-secondary">Default</button>
+  <a href="#" class="btn btn-secondary" role="button">Link</a>
+  <input type="submit" class="btn btn-secondary" value="Submit">
+  <hr>
+  <!-- Contexual Buttons-->
+  <button type="button" class="btn btn-primary">Primary</button>
+  <button type="button" class="btn btn-secondary">Secondary</button>
+  <button type="button" class="btn btn-success">Success</button>
+  <button type="button" class="btn btn-danger">Danger</button>
+  <button type="button" class="btn btn-warning">Warning</button>
+  <button type="button" class="btn btn-info">Info</button>
+  <button type="button" class="btn btn-light">Light</button>
+  <button type="button" class="btn btn-dark">Dark</button>
+  
+  <button type="button" class="btn btn-link">Link</button>
+  <hr>
+  <!--Button Sizes-->
+  <button type="button" class="btn btn-primary btn-lg">Large button</button>
+  <button type="button" class="btn btn-primary btn-sm">Small button</button>
+</div>
+<hr>
+<div class="container">
+  <form>
+  <div class="mb-3">
+    <!-- Forms-->
+    <label for="name">Name</label>
+    <input type="text" class="form-control" placeholder="Add name">
+  </div>
+  <div class="mb-3">
+    <label for="email">Email</label>
+    <input type="email" class="form-control" placeholder="Enter email">
+  </div>
+  <div class="mb-3">
+    <label for="text">Message</label>
+    <textarea class="form-control" placeholder="Enter Message"></textarea>
+  </div>
+  <div class="mb-3">
+    <label>Gender</label>
+    <select class="form-control">
+      <option value="Male">Male</option>
+      <option value="Female">Female</option>
+      <option value="Other">Other</option>
+    </select>
+  </div>
+  <div class="mb-3">
+    <label>Upload File</label>
+    <input type="file" class="form-control">
+    <p class="form-text">Please upload only PNG/JPEG files</p>
+  </div>
+  <div class="form-check">
+    <label><input type="checkbox" class="form-check-input">Check Me Out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+<hr>
+<!-- Tables -->
+<table class="table table-primary table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+
+    <!-- Bootstrap 5 JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

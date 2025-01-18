@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+  background-color: #f4f4f4;
+  color: #555555;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 5px solid red;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+/* Box Styles */
+.box-1, .box-2 {
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.box-1 {
+  background-color: #4b4a4a;
+  color: #f4f4f4;
+}
+
+.box-2 {
+  border: 3px solid rebeccapurple;
+}
+
+/* List Styles */
+.list {
+  border: 1px solid grey;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.list h2 {
+  text-align: center;
+}
+
+.list ul {
+  list-style: square;
+  padding-left: 20px;
+}
+
+.list li {
+  margin-bottom: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: green;
+}
+
+/* Form Styles */
+.my-form {
+  display: grid;
+  grid-gap: 10px;
+}
+
+.my-form div {
+  display: flex;
+  flex-direction: column;
+}
+
+.my-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.my-form input, .my-form textarea, .my-form select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.my-form input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+.my-form input[type="submit"]:hover {
+  background-color: #45a049;
+}
